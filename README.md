@@ -162,7 +162,7 @@ php artisan serve
 Pruebas (en otra terminal, después de php artisan serve):
 
 Lista tareas:
-bashcurl http://127.0.0.1:8000/api/tareas
+curl http://127.0.0.1:8000/api/tareas
 
 Crea una tarea:
 curl -X POST http://127.0.0.1:8000/api/tareas -H "Content-Type: application/json" -d "{\"titulo\":\"Tarea\",\"fecha_vencimiento\":\"2025-10-25\",\"usuario_id\":1}"
